@@ -22,9 +22,9 @@ import { deleteBrief, generateBrief, listBriefs, updateBrief } from "@/lib/works
 export const Route = createFileRoute("/_authenticated/research")({
   head: () => ({
     meta: [
-      { title: "AI Research Assistant — Atlas Workplace AI" },
+      { title: "AI Research Assistant — Jesus Is King" },
       { name: "description", content: "Generate structured, editable research briefs for any workplace topic and audience." },
-      { property: "og:title", content: "AI Research Assistant — Atlas Workplace AI" },
+      { property: "og:title", content: "AI Research Assistant — Jesus Is King" },
       { property: "og:description", content: "Generate structured, editable research briefs in seconds." },
     ],
   }),

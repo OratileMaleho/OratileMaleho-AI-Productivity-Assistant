@@ -28,9 +28,9 @@ import { Shimmer } from "@/components/ai-elements/shimmer";
 export const Route = createFileRoute("/_authenticated/assistant")({
   head: () => ({
     meta: [
-      { title: "AI Chat — Atlas Workplace AI" },
+      { title: "AI Chat — Jesus Is King" },
       { name: "description", content: "Chat with your workplace AI assistant to draft, summarise and think through work." },
-      { property: "og:title", content: "AI Chat — Atlas Workplace AI" },
+      { property: "og:title", content: "AI Chat — Jesus Is King" },
       { property: "og:description", content: "Chat with your workplace AI assistant — history is saved to your account." },
     ],
   }),
@@ -173,7 +173,7 @@ function ChatWindow({
           autoFocus
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          placeholder="Ask Atlas to draft, summarise or plan something…"
+          placeholder="Ask Tido to draft, summarise or plan something…"
         />
         <PromptInputFooter className="justify-end">
           <PromptInputSubmit status={status} disabled={busy || input.trim().length === 0} />

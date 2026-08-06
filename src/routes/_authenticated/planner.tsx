@@ -15,9 +15,9 @@ import { deletePlan, generatePlan, listPlans, updatePlan } from "@/lib/workspace
 export const Route = createFileRoute("/_authenticated/planner")({
   head: () => ({
     meta: [
-      { title: "AI Task Planner — Atlas Workplace AI" },
+      { title: "AI Task Planner — Jesus Is King" },
       { name: "description", content: "Turn a work objective into milestones, owners, tasks and risks with AI — then edit the plan." },
-      { property: "og:title", content: "AI Task Planner — Atlas Workplace AI" },
+      { property: "og:title", content: "AI Task Planner — Jesus Is King" },
       { property: "og:description", content: "Turn a work objective into an editable, structured task plan." },
     ],
   }),
@@ -56,7 +56,7 @@ function Planner() {
       <header>
         <h1 className="text-2xl font-bold sm:text-3xl">AI Task Planner</h1>
         <p className="mt-1 text-sm text-muted-foreground">
-          Describe the outcome you need. Atlas structures it into milestones, tasks and risks.
+          Describe the outcome you need. Jesus Is King structures it into milestones, tasks and risks.
         </p>
       </header>
 
