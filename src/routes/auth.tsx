@@ -11,9 +11,9 @@ import { Label } from "@/components/ui/label";
 export const Route = createFileRoute("/auth")({
   head: () => ({
     meta: [
-      { title: "Sign in — Atlas Workplace AI" },
-      { name: "description", content: "Sign in to Atlas to plan tasks, research topics and chat with your workplace AI assistant." },
-      { property: "og:title", content: "Sign in — Atlas Workplace AI" },
+      { title: "Sign in — Jesus Is King" },
+      { name: "description", content: "Sign in to Jesus Is King to plan tasks, research topics and chat with your workplace AI assistant." },
+      { property: "og:title", content: "Sign in — Jesus Is King" },
       { property: "og:description", content: "Sign in to your AI workplace productivity assistant." },
     ],
   }),
@@ -76,7 +76,7 @@ function AuthPage() {
     <div className="grid min-h-screen lg:grid-cols-2">
       <div className="hidden flex-col justify-between brand-gradient p-12 text-primary-foreground lg:flex">
         <Link to="/" className="flex items-center gap-2 font-display text-lg font-bold">
-          <Bot className="size-6" /> Atlas
+          <Bot className="size-6" /> Jesus Is King
         </Link>
         <div>
           <h2 className="max-w-sm text-3xl font-bold leading-tight">

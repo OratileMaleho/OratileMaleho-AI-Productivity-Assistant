@@ -79,12 +79,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Atlas — AI Workplace Productivity Assistant" },
+      { title: "Jesus Is King — AI Workplace Productivity Assistant" },
       {
         name: "description",
         content: "Plan tasks, research topics and draft work with AI built for professionals.",
       },
-      { property: "og:title", content: "Atlas — AI Workplace Productivity Assistant" },
+      { property: "og:title", content: "Jesus Is King — AI Workplace Productivity Assistant" },
       {
         property: "og:description",
         content: "Plan tasks, research topics and draft work with AI built for professionals.",

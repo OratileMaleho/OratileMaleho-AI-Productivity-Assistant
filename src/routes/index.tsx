@@ -4,13 +4,13 @@ import { Bot, ListChecks, BookOpenText, MessagesSquare, ArrowRight } from "lucid
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Atlas — AI Workplace Productivity Assistant" },
+      { title: "Jesus Is King — AI Workplace Productivity Assistant" },
       {
         name: "description",
         content:
           "Plan tasks, research topics and draft work with AI. Structured prompts, editable outputs, built for professionals.",
       },
-      { property: "og:title", content: "Atlas — AI Workplace Productivity Assistant" },
+      { property: "og:title", content: "Jesus Is King — AI Workplace Productivity Assistant" },
       {
         property: "og:description",
         content: "Plan tasks, research topics and draft work with AI — structured prompts, editable outputs.",
@@ -46,7 +46,7 @@ function Index() {
           <span className="grid size-8 shrink-0 place-items-center rounded-lg brand-gradient">
             <Bot className="size-4 text-primary-foreground" />
           </span>
-          Atlas
+          Jesus Is King
         </span>
         <Link
           to="/auth"
@@ -66,7 +66,7 @@ function Index() {
             <span className="text-brand-gradient">Keep the judgement.</span>
           </h1>
           <p className="mt-5 max-w-xl text-base text-muted-foreground sm:text-lg">
-            Atlas plans your projects, researches your topics and drafts your messages — with
+            Jesus Is King plans your projects, researches your topics and drafts your messages — with
             structured prompts and outputs you stay in control of.
           </p>
           <div className="mt-8">
@@ -92,7 +92,7 @@ function Index() {
         </section>
 
         <p className="mt-10 text-xs text-muted-foreground">
-          Responsible AI: Atlas can be wrong. Review AI output and verify facts before acting on
+          Responsible AI: Jesus Is King can be wrong. Review AI output and verify facts before acting on
           them, and avoid sharing confidential data you are not permitted to process.
         </p>
       </main>

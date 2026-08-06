@@ -8,9 +8,9 @@ import { AiDisclaimer } from "@/components/ai-disclaimer";
 export const Route = createFileRoute("/_authenticated/dashboard")({
   head: () => ({
     meta: [
-      { title: "Dashboard — Atlas Workplace AI" },
+      { title: "Dashboard — Jesus Is King" },
       { name: "description", content: "Your AI workspace: plans, research briefs and assistant activity at a glance." },
-      { property: "og:title", content: "Dashboard — Atlas Workplace AI" },
+      { property: "og:title", content: "Dashboard — Jesus Is King" },
       { property: "og:description", content: "Your AI workspace: plans, research briefs and assistant activity." },
     ],
   }),

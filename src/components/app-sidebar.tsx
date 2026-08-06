@@ -42,7 +42,7 @@ export function AppSidebar({ email }: { email?: string }) {
             <Bot className="size-5 text-primary-foreground" />
           </div>
           <div className="min-w-0 group-data-[collapsible=icon]:hidden">
-            <p className="truncate font-display text-sm font-bold">Atlas</p>
+            <p className="truncate font-display text-sm font-bold">Jesus Is King</p>
             <p className="truncate text-xs text-sidebar-foreground/60">Workplace AI</p>
           </div>
         </div>
