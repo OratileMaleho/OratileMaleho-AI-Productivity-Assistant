@@ -56,7 +56,7 @@ function Planner() {
       <header>
         <h1 className="text-2xl font-bold sm:text-3xl">AI Task Planner</h1>
         <p className="mt-1 text-sm text-muted-foreground">
-          Describe the outcome you need. Jesus Is King structures it into milestones, tasks and risks.
+          Describe the outcome you need. Tido structures it into milestones, tasks and risks.
         </p>
       </header>
 
