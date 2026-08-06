@@ -181,3 +181,52 @@
   background-clip: text;
   color: transparent;
 }
+
+@utility prose-output {
+  & h1, & h2, & h3 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    margin-top: 1.4em;
+    margin-bottom: 0.5em;
+  }
+  & h2 { font-size: 1.05rem; }
+  & h3 { font-size: 0.95rem; }
+  & > *:first-child { margin-top: 0; }
+  & p { margin-bottom: 0.85em; }
+  & ul, & ol { margin: 0 0 0.85em 1.1em; }
+  & ul { list-style: disc; }
+  & ol { list-style: decimal; }
+  & li { margin-bottom: 0.3em; }
+  & a { color: var(--primary); text-decoration: underline; }
+  & code {
+    background: var(--surface-subtle);
+    padding: 0.1em 0.35em;
+    border-radius: 0.35rem;
+    font-size: 0.85em;
+  }
+  & pre {
+    background: var(--surface-subtle);
+    padding: 0.9rem;
+    border-radius: var(--radius);
+    overflow-x: auto;
+    margin-bottom: 0.85em;
+  }
+  & table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+    font-size: 0.85em;
+  }
+  & th, & td {
+    border: 1px solid var(--border);
+    padding: 0.45rem 0.6rem;
+    text-align: left;
+  }
+  & th { background: var(--surface-subtle); font-weight: 600; }
+  & blockquote {
+    border-left: 3px solid var(--border);
+    padding-left: 0.9rem;
+    color: var(--muted-foreground);
+    margin-bottom: 0.85em;
+  }
+}
